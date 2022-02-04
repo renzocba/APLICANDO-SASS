@@ -1,5 +1,5 @@
 .logo {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -118,6 +118,30 @@ p {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+/*HAMBURGUESAS HTML*/
+.card-img1 {
+  width: 550px;
+  height: 300px;
+}
+
+.card {
+  width: 600px;
+  height: 350px;
+  background-color: red !important;
+}
+
+.hamburguesa {
+  display: flex;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.card-text {
+  color: white;
 }
 
 .mapa {
