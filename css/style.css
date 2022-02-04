@@ -70,6 +70,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: right;
+  grid-area: 1/4/7/6;
 }
 
 .photo {
@@ -97,6 +98,26 @@ p {
 .respuesta {
   color: white;
   font-size: medium;
+}
+
+/*PIZZAS.HTML*/
+.columna {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 15%;
+  grid-row-gap: 0px;
+}
+
+.separar {
+  display: grid;
+  border: solid 1px white;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .mapa {
@@ -147,7 +168,7 @@ p {
   }
 
   .photo {
-    width: 30%;
+    width: 100%;
   }
 
   .video {
@@ -155,6 +176,7 @@ p {
   }
 
   .multimedia {
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -209,7 +231,7 @@ p {
   }
 
   .photo {
-    width: 30%;
+    width: 100%;
   }
 
   .video {
@@ -217,6 +239,7 @@ p {
   }
 
   .multimedia {
+    width: 100%;
     display: flex;
     flex-direction: column;
   }

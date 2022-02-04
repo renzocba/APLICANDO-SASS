@@ -31,7 +31,7 @@
     }
     
     .photo {
-        width: 30%;
+        width:100%;
     }
     
     .video {
@@ -39,6 +39,7 @@
     }
     
     .multimedia {
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -90,7 +91,7 @@
     }
     
     .photo {
-        width: 30%;
+        width:100%;
     }
     
     .video {
@@ -98,6 +99,7 @@
     }
     
     .multimedia {
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
