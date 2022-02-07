@@ -22,10 +22,12 @@ a,
   background-color: red !important;
   width: 20%;
   height: 50px;
+  color: white;
 }
 
 .dropdown-menu {
   background-color: red;
+  color: white;
 }
 
 .dropdown-item:hover {
