@@ -31,16 +31,21 @@
         <!--lo que hice aca es que al presionar al logo de la empresa lleve al inicio de la pagina para volver a la pag principal-->
         <a class="logo" href="index.html"><img src="src/multimedia/images.jpg" alt="logo empresa"></a>
     </header>
-    <h2><a href="/index.html">Inicio</a></h2>
     <nav class="primeranavegacion">
-        <h1>Productos</h1>
-        <!--Las categorias de productos con sus respectivos htmls se hizo de manera simple para implementar la consigna luego se detallaria correctamente y de manera mas completa-->
-        <ul>
-            <li class="navbar"><a href="/src/multimedia/pages/pizzas.html">Pizzas</a></li>
-            <li class="navbar"><a href="/src/multimedia/pages/hamburguesas.html">Hamburguesas</a></li>
-            <li class="navbar"><a href="/src/multimedia/pages/lomos.html">Lomos</a></li>
-            <li class="navbar"><a href="/src/multimedia/pages/empanadas.html">Empanadas</a></li>
-        </ul>
+        <h2><a href="/index.html">Inicio</a></h2>
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="./src/multimedia/pages/pizzas.html">Pizzas</a></li>
+                <li><a class="dropdown-item" href="./src/multimedia/pages/lomos.html">Lomos</a></li>
+                <li><a class="dropdown-item" href="./src/multimedia/pages/empanadas.html">Empanadas</a></li>
+                <li><a class="dropdown-item" href="./src/multimedia/pages/hamburguesas.html">Hamburguesas</a></li>
+            </ul>
+        </div>
     </nav>
     <section>
         <!--Aca se utilizo lorem pero luego la idea es cambiarlo por texto original-->
