@@ -3,6 +3,7 @@
         margin: 0;
         padding: 0;
     }
+
     body {
         background-color: black;
         padding: 30px;
@@ -11,51 +12,62 @@
         font-style: initial;
         width: 100%;
     }
+
     h2 {
         color: rgb(116, 0, 0);
     }
-    
+
     h3 {
         color: rgb(65, 62, 62);
     }
+
     p {
         color: rgb(182, 182, 141);
         font-size: large;
     }
+
     .fotos {
         width: 20%;
         display: flex;
         flex-direction: column;
         justify-content: right;
-    
+
     }
-    
+
     .photo {
-        width:100%;
+        width: 100%;
     }
-    
+
     .video {
-        width: 30%;
+        width: 100%;
     }
-    
+
     .multimedia {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
+
     /*seccion preguntas*/
-    .accordion-button{
+    .accordion-button {
         background-color: black;
     }
-    .accordion-body{
-        background-color:black;
+
+    .accordion-body {
+        background-color: black;
     }
-    .respuesta{
+
+    .respuesta {
         color: white;
         font-size: medium;
     }
-    
-}    
+
+    .carta-productos {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
 
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
@@ -63,6 +75,7 @@
         margin: 0;
         padding: 0;
     }
+
     body {
         background-color: black;
         padding: 30px;
@@ -71,48 +84,58 @@
         font-style: initial;
         width: 100%;
     }
+
     h2 {
         color: rgb(116, 0, 0);
     }
-    
+
     h3 {
         color: rgb(65, 62, 62);
     }
+
     p {
         color: rgb(182, 182, 141);
         font-size: large;
     }
+
     .fotos {
         width: 20%;
         display: flex;
         flex-direction: column;
         justify-content: right;
-    
+
     }
-    
+
     .photo {
-        width:100%;
+        width: 100%;
     }
-    
+
     .video {
         width: 30%;
     }
-    
+
     .multimedia {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
+
     /*seccion preguntas*/
-    .accordion-button{
+    .accordion-button {
         background-color: black;
     }
-    .accordion-body{
-        background-color:black;
+
+    .accordion-body {
+        background-color: black;
     }
-    .respuesta{
+
+    .respuesta {
         color: white;
         font-size: medium;
     }
+
+    .carta-productos {
+        display: flex;
+        flex-direction: column;
     }
-    
+}

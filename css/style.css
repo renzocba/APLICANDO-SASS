@@ -48,7 +48,8 @@ body {
   padding: 30px;
   color: white;
   font-size: larger;
-  font-style: initial;
+  font-family: "Lobster", cursive;
+  font-display: swap;
   width: 100%;
 }
 
@@ -120,7 +121,7 @@ p {
   gap: 10px;
 }
 
-/*HAMBURGUESAS HTML*/
+/*HAMBURGUESAS-Lomos-Empanadas HTML*/
 .card-img1 {
   width: 550px;
   height: 300px;
@@ -132,8 +133,9 @@ p {
   background-color: red !important;
 }
 
-.hamburguesa {
+.carta-productos {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .padding {
@@ -196,7 +198,7 @@ p {
   }
 
   .video {
-    width: 30%;
+    width: 100%;
   }
 
   .multimedia {
@@ -217,6 +219,11 @@ p {
   .respuesta {
     color: white;
     font-size: medium;
+  }
+
+  .carta-productos {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -280,6 +287,11 @@ p {
   .respuesta {
     color: white;
     font-size: medium;
+  }
+
+  .carta-productos {
+    display: flex;
+    flex-direction: column;
   }
 }
 

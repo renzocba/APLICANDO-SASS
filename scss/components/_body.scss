@@ -7,7 +7,8 @@ body {
     padding: 30px;
     color: white;
     font-size: larger;
-    font-style: initial;
+    font-family: 'Lobster', cursive;
+    font-display: swap;
     width: 100%;
 }
 h2 {
@@ -70,7 +71,7 @@ p {
     flex-direction: column;
     gap: 10px;
 }
-/*HAMBURGUESAS HTML*/
+/*HAMBURGUESAS-Lomos-Empanadas HTML*/
 
 .card-img1{
     width:550px;
@@ -81,8 +82,9 @@ p {
     height: 350px;
     background-color: red !important;
 }
-.hamburguesa{
+.carta-productos{
     display: flex;
+    flex-wrap: wrap;
 }
 .padding{
     padding: 10px;
